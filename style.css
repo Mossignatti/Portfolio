@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+:root {
+    --cor-principal: #3a06f7;
+    --cor-secundaria:#e74d1a;
+    --cor-destaque: #1beb1b;
+}
+
+body {
+    font-family:'Edu VIC WA NT Hand', sans-serif;
+    color: var(--cor-principal);
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .bt-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal);
+}
+
+a:hover {
+    color: var(--cor-destaque);
+}
